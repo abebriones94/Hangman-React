@@ -86,8 +86,8 @@ function App() {
       }}
     >
       <div style={{ fontSize: "2rem", textAlign: "center" }}>
-        {isWinner && "You won! - Refresh to play again"}
-        {isLoser && "You lost! - Refresh to play again"}
+        {isWinner && "You won! - Press Enter to play again"}
+        {isLoser && "You lost! - Press Enter to play again"}
       </div>
       <HangmanDrawing numberOfGuesses={incorrectLetters.length} />
       <HangmanWord
